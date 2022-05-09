@@ -1,0 +1,19 @@
+ {
+    "name": "Youtube FullScreen Chat",
+    "description": "This extension allows you to have the Youtube chatbox available in view while FullScreen",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": ["https://*.youtube.com/watch?v=*"],
+          "css": ["styles.css"],
+          "js": ["content_scripts.js"]
+        }
+    ],
+    "web_accessible_resources": [{
+        "matches": ["<all_urls>"],
+        "resources": ["/images/loading.gif", "/images/open.png", "/images/close.png"]
+    }],
+    "permissions": ["activeTab", "scripting"],
+    "action": {}
+}
