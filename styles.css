@@ -1,27 +1,27 @@
 
-body.no-scroll video.html5-main-video.ytext-open{
-    left: 0px !important;
+body.YTFSChat.no-scroll video.html5-main-video.ytext-open{
+    left: 0 !important;
     width: 80% !important;
     /*height: auto !important;*/
     transition: width 0.72s;
 }
-body.no-scroll video.html5-main-video.ytext-close{
+body.YTFSChat.no-scroll video.html5-main-video.ytext-close{
     left: auto !important;
     width: 100% !important;
     transition: width 1s;
 }
-body.no-scroll .ytp-fit-cover-video .html5-main-video {
+body.YTFSChat.no-scroll .ytp-fit-cover-video .html5-main-video {
     object-fit: contain;
 }
-body.no-scroll #chatbox{
+body.YTFSChat.no-scroll #chatbox{
 
 }
-body.no-scroll #chatbox.ytext-cbopen{
+body.YTFSChat.no-scroll #chatbox.ytext-cbopen{
     background: #181818;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50px;
-    right: 0px;
+    right: 0;
     width: calc(20% - 22px);
     position: absolute;
     height: 75%;
@@ -30,10 +30,10 @@ body.no-scroll #chatbox.ytext-cbopen{
     z-index: 99;
     transition: width 0.72s;
 }
-body.no-scroll #chatbox.ytext-cbclose{
+body.YTFSChat.no-scroll #chatbox.ytext-cbclose{
     background: #181818;
-    right: 0px;
-    width: 0%;
+    right: 0;
+    width: 0;
     position: absolute;
     height: 75%;
     top:50%;
@@ -41,11 +41,11 @@ body.no-scroll #chatbox.ytext-cbclose{
     z-index: 99;
     transition: width 1s;
 }
-body.no-scroll #chatbox iframe#chatframe{
+body.YTFSChat.no-scroll #chatbox iframe#chatframe{
     height: 100% !important;
 }
 
-body.no-scroll #hide-chat{
+body.YTFSChat.no-scroll #hide-chat{
     background: #181818;
     top:50%;
     transform: translateY(-50%);
