@@ -1,6 +1,6 @@
 
 console.log("YT FS Chat Extension: Loaded");
-
+console.log("LEzGo!");
 var hasChat = 0;
 
 
